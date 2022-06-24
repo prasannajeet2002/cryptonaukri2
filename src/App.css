@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aqua;
+}
+
+.buttons {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+}
+.buttons .btn1 {
+  padding: 0 1rem;
+  height: 13vh;
+  width: 25vw;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: rgb(238, 106, 106);
+  color: rgb(115, 219, 210);
+  margin: 0 1rem;
+  -webkit-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  -moz-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  border-radius: 1rem;
+}
+.buttons .btn2 {
+  padding: 0 1rem;
+  height: 13vh;
+  width: 25vw;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: rgb(229, 99, 220);
+  color: yellow;
+  margin: 0 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  -moz-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+}
+.form_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.new_event {
+  text-transform: capitalize;
+}
+.form-group {
+  margin: 2rem 0rem;
+}
+.form-control {
+  text-transform: none;
+  height: 10vh;
+  width: 40vw;
+}
+.btn3 {
+  background-color: rgb(238, 50, 81);
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: none;
+  margin: 0.5rem;
+  font-style: none;
+}
+.btn4 {
+  background-color: rgb(13, 227, 120);
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: none;
+  margin: 0.5rem;
+  font-style: none;
+}
+.login {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 18vw;
+  align-items: center;
+}
+.login .login-btn {
+  background-color: rgb(111, 159, 241);
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: none;
+  margin: 0.5rem;
+  font-style: none;
+}
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+.user_container{
+  display: flex;
+  flex-direction: column;
+}
+.applicant-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 5px;
+  padding: 10px 5px;
+  -webkit-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  -moz-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  background-color: rgb(10, 10, 8);
+  color:white;
+}
+.name-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size:1.3rem;
+  text-decoration: solid;
+  padding: 0.5rem 0;
+}
+.name-email .name{
+  text-transform: capitalize;
+}
+.job-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform:capitalize;
+  font-size:1rem;
+  padding: 0.5rem 0;
+}
+.jobs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 5px;
+  padding: 10px 5px;
+  -webkit-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  -moz-box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  box-shadow: -7px 13px 10px 0px rgba(105, 101, 105, 0.54);
+  background-color: rgb(100, 51, 6);
+  color:white;
+}
+.jobs .job{
+     text-transform: capitalize;
+     font-size: 1.7rem;
+     text-decoration: solid;
+     padding:0.7rem 0;
+}
